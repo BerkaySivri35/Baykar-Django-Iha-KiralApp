@@ -55,9 +55,5 @@
 
 ![SSsilmegüncelleme](https://user-images.githubusercontent.com/72870590/220812714-f7465a59-2b78-4119-be36-89aa2eb2cfe1.jpg)
 
-![SSsilmegüncelleme](https://user-images.githubusercontent.com/72870590/220812769-236e0c5e-5c0f-455b-b4d2-6a9e7125fa85.jpg)
-
-
-
-
+![SSsilme](https://user-images.githubusercontent.com/72870590/220813044-c776a319-ea79-450e-a6d6-2ad1fd76f2ce.jpg)
 
