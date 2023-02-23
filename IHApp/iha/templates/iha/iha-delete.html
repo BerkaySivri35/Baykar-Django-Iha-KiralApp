@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+
+{% block css_files %}
+
+<link rel="stylesheet" href="/static/iha/css/style.css">
+{% endblock css_files %}
+    
+{% block title %}
+    Edit IHA
+{% endblock %}
+
+{% block content %}
+<div class="container mt-sm-1 mt-md-5">
+    <div class="row p-3 ">
+        <div class="col-12 p-0 shadow-lg p-3 mb-5 bg-body rounded">
+            <p class="display-6 text-center mb-5">
+                <strong>
+                   {{iha.marka}} - {{iha.model}} 
+                </strong>
+                isimli İHA'yı silmek istiyor musunuz ?
+            </p>
+                <form action="{% url 'iha_delete' iha.id %}" method="POST">
+                    {% csrf_token %}
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                        <button type="submit" class="btn btn-danger">Evet</button>
+                    
+                        <a href="{% url 'iha_list' %}" class="btn btn-primary">Hayır</a>
+                    </div>
+                    
+                </form>
+            
+        </div>
+        
+    </div>
+</div>   
+    
+        
+{% endblock content %}

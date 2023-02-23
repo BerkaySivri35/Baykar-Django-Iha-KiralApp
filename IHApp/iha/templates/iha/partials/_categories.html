@@ -1,0 +1,13 @@
+<!--Sol taraftaki aside menu-->
+
+<div class="list-group">
+    <a href="{% url 'index' %} " class="list-group-item list-group-item-action">Tüm Kategoriler</a>
+    {% for category in categories %}
+        <a 
+            href="{% url 'ihas_by_category' category.slug %}"
+            class="list-group-item list-group-item-action {% if  selectedCategory == category.slug %}active{% endif %}
+                ">
+            {{category.name | title}} <!--# | title => bas harfleri buyuk yapar.-->
+        </a>
+    {% endfor %}
+</div>

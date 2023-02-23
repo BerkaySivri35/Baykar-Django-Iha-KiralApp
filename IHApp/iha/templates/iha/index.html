@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block css_files %}
+    
+{% endblock css_files %}
+
+{% block content %}
+
+    <div class="container">
+        <div class="row pt-3">
+            <div class="col-3">
+                {% include 'iha/partials/_categories.html' %}
+            </div>
+            <div class="col-9">
+                <h1>Anasayfa</h1>
+                <hr>
+                    {% for iha in ihas %} 
+                        {% include 'iha/partials/_product-card.html' %}
+                    {% endfor %}
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+{% endblock content %}
+    

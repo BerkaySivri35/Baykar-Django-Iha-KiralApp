@@ -1,0 +1,20 @@
+{% load static %}
+
+<div class="card mb-3 shadow-lg p-3 mb-5 bg-body rounded">
+    <div class="row">
+        <div class="col-4">
+            <img src="{{iha.image.url}}" class="img-fluid" alt="{{iha.model}}">
+        </div>
+        <div class="col-8">
+            <div class="card-body">
+                <h5 class="card-title">
+                    <a href="{% url 'iha_details' iha.slug %}">{{iha.marka}}</a>
+                </h5>
+                <p class="card-text">{{iha.model}}</p>
+                <span>
+                    {{iha.tarih}}
+                </span>
+            </div>
+        </div>
+    </div>
+</div>

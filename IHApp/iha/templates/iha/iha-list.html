@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block css_files %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+{% endblock css_files %}
+
+{% block title %}
+
+{% endblock %}
+
+{% block content %}
+<div class="container mt-3 p-4 bg-secondary bg-opacity-50 rounded-3">
+    <div class="row border bg-light ">
+        <div class="col-12 p-0">
+            <table class="table table-sm table-bordered">
+                <thead>
+                    <tr>
+                        <th style="width:
+                        150px">Resim</th>
+                        <th>Marka</th>
+                        <th>Model</th>
+                        <th>Slug</th>
+                        <th style="width: 70px;"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for iha in ihas %}
+                        <tr>
+                            <td>
+                                <img src="{{iha.image.url}}" class="img-fluid">
+                                
+                            </td>
+                            <td>{{iha.marka}}</td>
+                            <td>{{iha.model}}</td>
+                            <td>{{iha.slug}}</td>
+                            <td>
+                                <a href="{% url 'iha_edit' iha.id %}" class="btn btn-outline-primary btn-sm mb-4">
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </a>
+                                
+                                <a href="{% url 'iha_delete' iha.id %}"class="btn btn-outline-danger btn-sm">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        
+    </div>
+    <a href="{% url 'index' %}"><button class="btn btn-dark mt-4">Geri</button></a>
+</div>   
+    
+    {% block js_files %}
+        
+    {% endblock %}
+        
+{% endblock content %}

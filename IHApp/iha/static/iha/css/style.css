@@ -1,0 +1,26 @@
+.errorlist{
+    list-style-type: none;
+    color: red;
+    margin: 0;
+    padding-bottom: 10px;
+    position: relative;
+    animation: animasyon 0.5s ease-in-out;
+}
+@keyframes animasyon {
+    from{
+        left: -900px;
+    }
+    to{
+        left: 0px;
+    }
+}
+
+.invalid input, .invalid textarea {
+    border-color: red;
+}
+
+body{
+    background-color: skyblue;
+    background-image: url("/static/iha/img/clouds.png");
+    
+}

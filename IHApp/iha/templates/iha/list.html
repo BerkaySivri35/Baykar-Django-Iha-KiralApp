@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block css_files %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+{% endblock css_files %}
+    
+{% block title %}{% endblock %}
+
+{% block content %}
+<div class="container mt-3">
+    <div class="row">
+        <div class="col-3">
+
+            <!--menu-->
+            {% include 'iha/partials/_categories.html' %}
+        </div>
+        <div class="col-9">
+            <!--content-->
+            <h1>İHALAR - {{iha.categories}}</h1>
+            <hr>
+            {% if ihas|length == 0%}
+
+                <div class="alert alert-danger">İha Bulunamadı !</div>
+            
+            {% endif %}
+
+            {% for iha in ihas %}
+                
+                    {% include 'iha/partials/_product-card.html' %}
+    
+            {% endfor %}
+            
+                
+        </div>
+    </div>
+</div>   
+    
+    {% block js_files %}
+        
+    {% endblock %}
+        
+{% endblock content %}
+
+    

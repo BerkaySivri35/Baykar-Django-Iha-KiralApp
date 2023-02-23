@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block css_files %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+<link rel="stylesheet" href="/static/iha/css/style.css">
+{% endblock css_files %}
+    
+{% block title %}
+    İHA Ekle
+{% endblock %}
+
+{% block content %}
+<div class="container mt-3">
+    <div class="row p-3 d-flex justify-content-center">
+        <div class="col-sm-12 col-md-6">
+            <h1>İHA Kayıt</h1>
+            <hr>
+            <form action="{% url 'iha_ekle' %}" 
+                method= "POST" 
+                novalidate enctype="multipart/form-data"> 
+                <!--novalidate ile tarayıcının js ini kapatır. özel error css'i eklemeye yarar.-->
+                {% csrf_token %}
+                    
+                {% include 'partials/_form.html' %}
+                    
+                    <button type="submit" class="btn btn-outline-success">Kaydet</button>
+            </form>
+        </div>
+    </div>
+    <a href="{% url 'index' %}"><button class="btn btn-dark mt-4">Geri</button></a>
+</div>   
+    
+    {% block js_files %}
+        
+    {% endblock %}
+        
+{% endblock content %}
