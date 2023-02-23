@@ -6,9 +6,9 @@
 <p>DB olarak kriterlerde belirtildiği üzere PostgeSql kullanıldı.</p>
 <p>Frontend: HTML & CSS, Bootstrap, Javascript</p>
 
-<p>
-  Admin Panel Bilgileri: 
-  user:admin
+<p style="color:red;">
+  Admin Panel Bilgileri: <br/>
+  user:admin <br/>
   password: 123456
 </p>
 
