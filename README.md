@@ -6,6 +6,12 @@
 <p>DB olarak kriterlerde belirtildiği üzere PostgeSql kullanıldı.</p>
 <p>Frontend: HTML & CSS, Bootstrap, Javascript</p>
 
+<p>
+  Admin Panel Bilgileri: 
+  user:admin
+  password: 123456
+</p>
+
 <h1> Uygulamanın Fonksiyoneliteleri </h1>
 <ul>
   <li>
@@ -33,12 +39,17 @@
 
 <h4>
   Üyelik Sistemine Ait Resimler
+
 </h4>
 <hr/>
 
+<h5>Admin Login</h5
 ![SSgiris](https://user-images.githubusercontent.com/72870590/220810767-4f17a02e-d15d-406a-835c-8be09919dcfd.jpg)
 
 ![SSgirisbasarili](https://user-images.githubusercontent.com/72870590/220810780-c4e085f4-e322-493d-bcc3-761b0ea9b0ed.jpg)
+
+<h5>User Login</h5>
+![SSuser](https://user-images.githubusercontent.com/72870590/220904019-019fc8e8-2efe-4a73-bbe4-d853b359de6d.jpg)
 
 ![SSparolayenile](https://user-images.githubusercontent.com/72870590/220812455-1bcc2a1d-d90e-4701-abc9-29c858ae3bdc.jpg)
 
@@ -50,6 +61,8 @@
 <hr/>
 
 ![ssindex](https://user-images.githubusercontent.com/72870590/220812654-764f809c-eb1d-4d61-aeac-3f2961644d15.jpg)
+
+![SSihadetails](https://user-images.githubusercontent.com/72870590/220904306-f9b4c7b4-2c44-488d-a6c3-738c794a6c45.jpg)
 
 ![SStaaruz](https://user-images.githubusercontent.com/72870590/220812680-740a4a0e-b4a1-4f7f-b420-cef6e2314206.jpg)
 
