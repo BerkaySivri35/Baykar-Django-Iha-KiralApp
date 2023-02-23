@@ -36,8 +36,11 @@
 </h4>
 <hr/>
 ![SSgiris](https://user-images.githubusercontent.com/72870590/220810767-4f17a02e-d15d-406a-835c-8be09919dcfd.jpg)
+
 ![SSgirisbasarili](https://user-images.githubusercontent.com/72870590/220810780-c4e085f4-e322-493d-bcc3-761b0ea9b0ed.jpg)
+
 ![SSparolayenile](https://user-images.githubusercontent.com/72870590/220812455-1bcc2a1d-d90e-4701-abc9-29c858ae3bdc.jpg)
+
 ![SSkayıtOl](https://user-images.githubusercontent.com/72870590/220812462-6159d24e-1819-43de-bf2d-a651d9827a79.jpg)
 
 <h4>
