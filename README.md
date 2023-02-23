@@ -44,11 +44,15 @@
 <hr/>
 
 <h5>Admin Login</h5
+<hr/>
+  
 ![SSgiris](https://user-images.githubusercontent.com/72870590/220810767-4f17a02e-d15d-406a-835c-8be09919dcfd.jpg)
 
 ![SSgirisbasarili](https://user-images.githubusercontent.com/72870590/220810780-c4e085f4-e322-493d-bcc3-761b0ea9b0ed.jpg)
 
 <h5>User Login</h5>
+<hr/>
+  
 ![SSuser](https://user-images.githubusercontent.com/72870590/220904019-019fc8e8-2efe-4a73-bbe4-d853b359de6d.jpg)
 
 ![SSparolayenile](https://user-images.githubusercontent.com/72870590/220812455-1bcc2a1d-d90e-4701-abc9-29c858ae3bdc.jpg)
