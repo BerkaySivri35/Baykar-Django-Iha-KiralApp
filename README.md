@@ -70,10 +70,21 @@
 
 ![SStaaruz](https://user-images.githubusercontent.com/72870590/220812680-740a4a0e-b4a1-4f7f-b420-cef6e2314206.jpg)
 
+<h3>İHA Lİstesi</h3>
+
 ![SSsilmegüncelleme](https://user-images.githubusercontent.com/72870590/220812714-f7465a59-2b78-4119-be36-89aa2eb2cfe1.jpg)
+
+<h3> İha Silme </h3>
 
 ![SSsilme](https://user-images.githubusercontent.com/72870590/220813044-c776a319-ea79-450e-a6d6-2ad1fd76f2ce.jpg)
 
+<h3> İHA Güncelleme </h3>
+
+![ihaguncelle](https://user-images.githubusercontent.com/72870590/221135463-bbfdee2a-ecda-415c-b2df-d995b8613643.jpg)
+
+<h3> DB </h3>
+
 ![SSdb](https://user-images.githubusercontent.com/72870590/220813434-342a2feb-a9b6-4b35-a83e-54c932ddd168.jpg)
+
 
 
